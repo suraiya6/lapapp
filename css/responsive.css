@@ -1,0 +1,598 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .d-flex .btn{
+    margin-left:0 !important;
+  }
+  .banner{
+        height: auto !important;
+    width: auto !important;
+    text-align: center;
+  }
+  .banner-text{
+    height: auto !important;
+  }
+  .btn1{
+    margin-top: 30px;
+  }
+  .btn1 button{
+    height: auto !important;
+    left: 11px !important;
+    width: 9% !important;
+    /*width: auto !important;*/
+  }
+  .btn1 input{
+    width:94% !important;
+    padding-left: 35px !important;
+  }
+  .banner-text h3 {
+    font-size: 25px !important;
+  }
+  .banner-text p {
+    font-size: 13px !important;
+    color: #8a8282 !important;
+  }
+  .banner-txt button{
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+  }
+  .company-text{
+    text-align: center;
+  }
+  .features1 .row{
+       /* flex-direction: column-reverse;*/
+    text-align: center;
+  }
+
+.features1-text h1 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+      margin-right: 0px !important; 
+    margin-bottom: 16px !important;
+  }
+  .features1-text p{
+
+    font-size: 13px !important;
+     margin-right: 0px !important;
+     margin-bottom: 0px !important;
+  }
+  .features1-icon{
+    margin: 0 auto;
+    margin-top: 20px !important;
+  }
+  .features1 .row{
+    margin-top: 0 !important;
+  }
+  .features1{
+    padding: 0px 0 !important;
+  }
+  .icon1-tx h2,.demo-text h3, .app-details-content h3,  .review-details h4{
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+  .icon1-tx{
+
+    margin-left: 0 !important;
+  }
+  .icon1-tx p,.demo-text p, .app-details-content p {
+    font-size: 13px !important;
+    
+    margin-right: 0 !important;
+  }
+  .features2{
+    text-align: center;
+    padding: 50px 0 !important;
+  }
+  .features2-text{
+    border-right: 0 !important;
+    border-bottom: 1px solid #b9b9b8 !important;
+
+  }
+  .features2-text h2,.design-text h2,.app-info-text h1, .features3-text h1, .features4-text h3, .review-text h3, .question-text h3{
+    font-size: 30px !important;
+    margin-bottom: 25px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .features2-txt {
+    margin-left: 0px !important;
+  }
+  .features2-txt p, .design-text p, .app-info-text p, .features3-text p, .features4-text p,  .review-text p, .question-text p{
+    font-size: 13px !important;
+    margin-right: 0 !important;
+  }
+  .demo{
+    padding: 20px 0 !important;
+    text-align: center;
+  }
+  .demo-icon{
+    margin: 0 auto;
+  }
+
+  .design{
+    padding: 32px 0px 62px 0px !important;
+    text-align: center;
+  }
+  .design-text {
+    margin-left: 0px !important;
+    margin-top: 60px !important;
+  }
+  .design-text p {
+    margin-bottom: 0px !important;
+  }
+.app-info-text h1 {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .app-info-text p {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .app-details {
+    margin-top: 16px !important;
+  }
+  .app-details-pic {
+   
+    margin-bottom: 20px !important;
+  }
+  .app-details-content p {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .app-info {
+    padding: 80px 0 60px 0 !important;
+  }
+  .features3{
+    padding: 20px 0 !important;
+    text-align: center;
+  }
+  .features3-text h1 {
+    margin-right: 0px !important;
+  
+}
+  .features3-det {
+    margin: 0 auto !important;
+ }
+ .features3-btn button{
+  margin-bottom: 20px;
+ }
+ .features4-text h3 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+   margin-bottom: 18px !important;
+}
+.features4{
+  padding: 60px 0 !important;
+}
+.features4-text p {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.features4-btn{
+      margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+.review-text{
+  text-align: center;
+}
+  .review-text h3 {
+    margin-right: 0px !important;
+    
+    margin-top: 44px;
+}
+.review-text p {
+    margin-right: 0px !important;
+    margin-bottom:14px !important;
+}
+.review-details h4 {
+   
+    margin-bottom: 16px !important;
+
+  }
+  .user{
+    width: auto !important;
+    margin: 0 auto;
+  }
+  .review{
+    padding: 80px 0px 40px 0 !important;
+  }
+  .question{
+    text-align: center;
+    padding: 20px 0px 40px 0px !important;
+  }
+  .question-text p {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+.question-content {
+    margin-top: 40px !important;
+}
+.accordion-body {
+    padding: 20px 18px 20px 18px !important;
+}
+.accordim-btn{
+      font-size: 16px !important;
+          padding: 20px 22px 20px 22px !important;
+}
+.download-txt {
+    margin-top: 28px !important;
+}
+.download-txt h2 {
+    text-align: center;
+    font-size: 30px !important;
+
+    margin-bottom: 16px !important;
+    
+}
+.download-txt p{
+      font-size: 13px !important;
+      margin-bottom: 22px !important;
+    text-align: center;
+}
+.download-m{
+  text-align: center;
+}
+.img-down {
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+}
+.download-img {
+    margin-top: 70px !important;
+}
+.footer{
+  padding: 70px 0px 40px 0px !important;
+  margin-top: -106px !important;
+}
+.footer-txt ul li {
+   
+    padding: 4px 72px !important;
+}
+.footer-txt {
+    margin-top: 15px;
+}
+.footer-icon1 {
+ margin-top: 15px !important;
+    margin-bottom: 10px;
+}
+.footer-txt ul li a {
+   
+    font-size: 14px !important;
+}
+.footer-icon1 ul li a i {
+    font-size: 22px !important;
+
+}
+.footer-p p{
+  font-size: 13px;
+  margin-top: 0px !important;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .d-flex .btn{
+    margin-left:0 !important;
+  }
+  .banner{
+        height: auto !important;
+    width: auto !important;
+    text-align: center;
+  }
+  .banner-text{
+    height: auto !important;
+  }
+  .btn1{
+    margin-top: 30px;
+  }
+  .btn1 button{
+    height: auto !important;
+    left: 11px !important;
+    width: 9% !important;
+    /*width: auto !important;*/
+  }
+  .btn1 input{
+    width:94% !important;
+    padding-left: 35px !important;
+  }
+  .banner-text h3 {
+    font-size: 25px !important;
+  }
+  .banner-text p {
+    font-size: 13px !important;
+    color: #8a8282 !important;
+  }
+  .banner-txt button{
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+  }
+  .company-text{
+    text-align: center;
+  }
+  .features1 .row{
+       /* flex-direction: column-reverse;*/
+    text-align: center;
+  }
+
+.features1-text h1 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+      margin-right: 0px !important; 
+    margin-bottom: 16px !important;
+  }
+  .features1-text p{
+
+    font-size: 13px !important;
+     margin-right: 0px !important;
+     margin-bottom: 0px !important;
+  }
+  .features1-icon{
+    margin: 0 auto;
+    margin-top: 20px !important;
+  }
+  .features1 .row{
+    margin-top: 0 !important;
+  }
+  .features1{
+    padding: 0px 0 !important;
+  }
+  .icon1-tx h2,.demo-text h3, .app-details-content h3,  .review-details h4{
+    font-size: 18px !important;
+    margin-bottom: 16px !important;
+  }
+  .icon1-tx{
+
+    margin-left: 0 !important;
+  }
+  .icon1-tx p,.demo-text p, .app-details-content p {
+    font-size: 13px !important;
+    
+    margin-right: 0 !important;
+  }
+  .features2{
+    text-align: center;
+    padding: 50px 0 !important;
+  }
+  .features2-text{
+    border-right: 0 !important;
+    border-bottom: 1px solid #b9b9b8 !important;
+
+  }
+  .features2-text h2,.design-text h2,.app-info-text h1, .features3-text h1, .features4-text h3, .review-text h3, .question-text h3{
+    font-size: 30px !important;
+    margin-bottom: 25px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .features2-txt {
+    margin-left: 0px !important;
+  }
+  .features2-txt p, .design-text p, .app-info-text p, .features3-text p, .features4-text p,  .review-text p, .question-text p{
+    font-size: 13px !important;
+    margin-right: 0 !important;
+  }
+  .demo{
+    padding: 20px 0 !important;
+    text-align: center;
+  }
+  .demo-icon{
+    margin: 0 auto;
+  }
+
+  .design{
+    padding: 32px 0px 62px 0px !important;
+    text-align: center;
+  }
+  .design-text {
+    margin-left: 0px !important;
+    margin-top: 60px !important;
+  }
+  .design-text p {
+    margin-bottom: 0px !important;
+  }
+.app-info-text h1 {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .app-info-text p {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .app-details {
+    margin-top: 16px !important;
+  }
+  .app-details-pic {
+   
+    margin-bottom: 20px !important;
+  }
+  .app-details-content p {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .app-info {
+    padding: 80px 0 60px 0 !important;
+  }
+  .features3{
+    padding: 20px 0 !important;
+    text-align: center;
+  }
+  .features3-text h1 {
+    margin-right: 0px !important;
+  
+}
+  .features3-det {
+    margin: 0 auto !important;
+ }
+ .features3-btn button{
+  margin-bottom: 20px;
+ }
+ .features4-text h3 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+   margin-bottom: 18px !important;
+}
+.features4{
+  padding: 60px 0 !important;
+}
+.features4-text p {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.features4-btn{
+      margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+.review-text{
+  text-align: center;
+}
+  .review-text h3 {
+    margin-right: 0px !important;
+    
+    margin-top: 44px;
+}
+.review-text p {
+    margin-right: 0px !important;
+    margin-bottom:14px !important;
+}
+.review-details h4 {
+   
+    margin-bottom: 16px !important;
+
+  }
+  .user{
+    width: auto !important;
+    margin: 0 auto;
+  }
+  .review{
+    padding: 80px 0px 40px 0 !important;
+  }
+  .question{
+    text-align: center;
+    padding: 20px 0px 40px 0px !important;
+  }
+  .question-text p {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+.question-content {
+    margin-top: 40px !important;
+}
+.accordion-body {
+    padding: 20px 18px 20px 18px !important;
+}
+.accordim-btn{
+      font-size: 16px !important;
+          padding: 20px 22px 20px 22px !important;
+}
+.download-txt {
+    margin-top: 28px !important;
+}
+.download-txt h2 {
+    text-align: center;
+    font-size: 30px !important;
+
+    margin-bottom: 16px !important;
+    
+}
+.download-txt p{
+      font-size: 13px !important;
+      margin-bottom: 22px !important;
+    text-align: center;
+}
+.download-m{
+  text-align: center;
+}
+.img-down {
+    margin-right: 0px !important;
+    margin-bottom: 12px;
+}
+.download-img {
+    margin-top: 70px !important;
+}
+.footer{
+  padding: 70px 0px 40px 0px !important;
+  margin-top: -106px !important;
+}
+.footer-txt ul li {
+   
+    padding: 4px 72px !important;
+}
+.footer-txt {
+    margin-top: 15px;
+}
+.footer-icon1 {
+ margin-top: 15px !important;
+    margin-bottom: 10px;
+}
+.footer-txt ul li a {
+   
+    font-size: 14px !important;
+}
+.footer-icon1 ul li a i {
+    font-size: 22px !important;
+
+}
+.footer-p p{
+  font-size: 13px;
+  margin-top: 0px !important;
+}
+}
